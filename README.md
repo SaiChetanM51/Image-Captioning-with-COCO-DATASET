@@ -49,12 +49,12 @@ pip install tensorflow pandas numpy matplotlib pillow tqdm
 2.  **Download the dataset**:
     Download the COCO 2017 dataset and place it in the appropriate directory as referenced by the `BASE_PATH` variable in the notebook.
 3.  Install the required dependencies:
-  ```bash
+    ```bash
      pip install -r requirements.txt
-  ```
-5.  **Run the Jupyter Notebook**:
+    ```
+4.  **Run the Jupyter Notebook**:
     Open and run the `image-captioning-on-coco-dataset (1).ipynb` notebook to train the model and generate captions.
-6.  **Load pre-trained weights**:
+5.  **Load pre-trained weights**:
     If you have pre-trained weights (`model.h5`), you can load them to an instantiated model to perform inference without retraining.
 
 -----
